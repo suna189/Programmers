@@ -4,13 +4,13 @@ import java.text.ParseException;
 
 public class Main {
 	public static void main(String[] args) throws ParseException {
-		PersonerInformation personerInformation = new PersonerInformation();
-		int[] answer = personerInformation.solution();
+		Hamberger hamberger = new Hamberger();
+		int answer = hamberger.solution();
 		
 		
 		System.out.println("===============");
-		for(int num : answer) {
-			System.out.println(num);
-		}
+		
+		System.out.println(answer);
+		
 	}
 }

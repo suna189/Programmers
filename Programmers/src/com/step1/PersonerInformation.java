@@ -3,7 +3,6 @@ package com.step1;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -48,9 +47,6 @@ public class PersonerInformation {
 			} else {
 				priDate += "." + String.valueOf(priDay);
 			}
-			
-			System.out.println(priDate);
-			System.out.println(privacie[1] + " " + map.get(privacie[1]));
 		
 			SimpleDateFormat formatter = new SimpleDateFormat("yyyy.MM.dd");
 			Date date = formatter.parse(priDate);
